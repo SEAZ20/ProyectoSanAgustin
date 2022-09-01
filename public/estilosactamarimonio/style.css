@@ -1,0 +1,275 @@
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #0087C3;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  margin: 0 auto; 
+  color: #1d1c1c;
+  background: #FFFFFF; 
+  font-family: Arial; 
+  font-size: 14px; 
+  
+}
+
+@page {
+  margin-top: 0.2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#seccion{
+  width: 560px;
+  height: 245px;
+	margin-top: 0px;
+	margin-left: 0px;
+  margin-bottom: 0px;
+  font-size:13px;
+  border-left-style: solid;
+  border-left-width: 5px ;
+  border-left-color:#7E418F ;
+
+  border-right-style: solid;
+  border-right-width: 1px ;
+  border-right-color:#7E418F ;
+
+  border-top-style: solid;
+  border-top-width: 1px ;
+  border-top-color:#7E418F ;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px ;
+  border-bottom-color:#7E418F ;
+  text-align: justify;
+  line-height: 1.8em; 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+	float:left;	
+}
+
+#otraseccion{
+  font-size:12px;
+  width: 165px;
+  height: 245px;
+	margin-top: 0px;
+  margin-left: 5px;
+  text-align: justify;
+  border-top-style: solid;
+  border-top-width: 5px ;
+  border-top-color:#7E418F ;
+
+  border-right-style: solid;
+  border-right-width: 1px ;
+  border-right-color:#7E418F ;
+
+  border-left-style: solid;
+  border-left-width: 1px ;
+  border-left-color:#7E418F ;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px ;
+  border-bottom-color:#7E418F ;
+  
+  line-height: 1.7em; 
+  padding-left: 5px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  float: left;
+}
+#nota{
+	
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 0px;
+  margin-bottom: 0px;
+
+  border-left-style: solid;
+  border-left-width: 5px ;
+  border-left-color:#4ba592 ;
+ 
+}
+header {
+  padding: 10px 0;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #7E418F ;
+}
+
+#logo {
+  float: left;
+  margin-top: 0px;
+}
+
+#logo img {
+  height: 60px;
+}
+
+#company {
+  float: left;
+  text-align: left;
+  line-height: 1.1em; 
+  margin-left: 5px;
+}
+
+
+#details {
+  margin-bottom: 50px;
+}
+
+#client {
+  padding-left: 6px;
+  border-left: 6px solid #0087C3;
+  float: left;
+}
+
+#client .to {
+  color: #777777;
+}
+
+h2.name {
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0;
+}
+
+#invoice {
+  float: right;
+  text-align: right;
+}
+
+#invoice h1 {
+  color: #0087C3;
+  font-size: 2.4em;
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0  0 10px 0;
+}
+
+#invoice .date {
+  font-size: 1.1em;
+  color: #777777;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 20px;
+  background: #EEEEEE;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+table th {
+  white-space: nowrap;        
+  font-weight: normal;
+}
+
+table td {
+  text-align: right;
+}
+
+table td h3{
+  color: #57B223;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0 0 0.2em 0;
+}
+
+table .no {
+  color: #FFFFFF;
+  font-size: 1.6em;
+  background: #57B223;
+}
+
+table .desc {
+  text-align: left;
+}
+
+table .unit {
+  background: #DDDDDD;
+}
+
+table .qty {
+}
+
+table .total {
+  background: #57B223;
+  color: #FFFFFF;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
+
+table tbody tr:last-child td {
+  border: none;
+}
+
+table tfoot td {
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border-bottom: none;
+  font-size: 1.2em;
+  white-space: nowrap; 
+  border-top: 1px solid #AAAAAA; 
+}
+
+table tfoot tr:first-child td {
+  border-top: none; 
+}
+
+table tfoot tr:last-child td {
+  color: #57B223;
+  font-size: 1.4em;
+  border-top: 1px solid #57B223; 
+
+}
+
+table tfoot tr td:first-child {
+  border: none;
+}
+
+#thanks{
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+#notices{
+  padding-left: 5px;
+  border-left: 4px solid #7E418F;  
+  font-size:15px;
+}
+
+#notices .notice {
+  font-size: 1.2em;
+}
+
+footer {
+  color: #1d1c1c;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #7E418F;
+  padding: 8px 0;
+  text-align: center;
+}
+
